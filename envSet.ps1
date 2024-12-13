@@ -1,7 +1,5 @@
 
-# 设置环境变量的脚本
 $proxy="http://127.0.0.1:7773"
-
 # 定义要设置的环境变量和它们的值
 $envVars = @{
     "https_proxy" =$proxy; 
